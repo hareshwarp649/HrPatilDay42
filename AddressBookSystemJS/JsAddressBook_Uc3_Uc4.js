@@ -152,7 +152,7 @@ function Edit()
     AddressBook.forEach(contact=>console.log(contact.toString()));
     //Editing Contact by name
     console.log("-------------Editing contact-----------------");
-    AddressBook.filter(contact=>contact.firstName=="Pranali"&& contact.lastName =="Lambat").forEach(contact=>{contact.address ="DamohNaka"; contact.city="AbckgNagpur"; contact.state="Maharashtra"});
+    AddressBook.filter(contact=>contact.firstName=="Jaydev"&& contact.lastName =="Ravi").forEach(contact=>{contact.address ="DevNagar"; contact.city="Buldana"; contact.state="Maharashtra"});
     AddressBook.forEach(contact=>console.log(contact.toString()));
 }
 let AddressBook = new Array();
